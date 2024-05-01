@@ -7,10 +7,9 @@
     <title>Comida Rápida y Restaurantes</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        .card-img-top {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
+        /* Estilos adicionales */
+        .navbar .login-btn {
+            cursor: pointer;
         }
     </style>
 </head>
@@ -24,68 +23,54 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Restaurantes.html">Restaurantes y comida</a>
+                        <a class="nav-link active" href="Restaurantes.html">Restaurantes y comida</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Servicios y ocio</a>
                     </li>
                 </ul>
                 <!-- Botón de inicio de sesión -->
-                <button type="button" class="btn btn-outline-primary ml-auto mr-2" data-toggle="modal"
+                <button type="button" class="btn btn-outline-primary login-btn mr-2" data-toggle="modal"
                     data-target="#loginModal">Iniciar Sesión</button>
             </div>
         </div>
     </nav>
 
-    <div class="container mt-4">
-        <div class="p-5 mb-4 bg-light rounded-3">
-            <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold">Bienvenido a la Multitienda</h1>
-                <p class="col-md-8 fs-4">Ocio y Servicios</p>
-            </div>
-        </div>
-    </div>
-
     <div class="container">
+        <h1 class="mt-5 mb-4 text-center">Comida Rápida y Restaurantes</h1>
+
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdyW4BoxYADKBtPoaTqgd2CZOeIJ0D8ZhdRrGs_v0U-Q&s"
-                        class="card-img-top" alt="...">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Burger King</h5>
-                        <p class="card-text">Restaurante de comida rápida</p>
-                        <a href="#" class="btn btn-primary">Realizar Pedido</a>
+                        <h5 class="card-title">Nombre del Restaurante</h5>
+                        <p class="card-text">Breve descripción del restaurante y su comida.</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
                     </div>
                 </div>
             </div>
+
+            <!-- Puedes copiar y pegar este bloque para añadir más tarjetas de restaurantes -->
+
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://images.milanuncios.com/api/v1/ma-ad-media-pro/images/9fdfdcb9-758d-41a4-8e07-f83e9ccaa850?rule=hw396_70"
-                        class="card-img-top" alt="...">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Telepizza</h5>
-                        <p class="card-text">Restaurante de comida rápida</p>
-                        <a href="#" class="btn btn-primary">Realizar Pedido</a>
+                        <h5 class="card-title">Nombre del Restaurante</h5>
+                        <p class="card-text">Breve descripción del restaurante y su comida.</p>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://puntodeencuentronavalmoral.es/wp-content/uploads/2020/12/LaBoleraLogo.jpg"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">La Bolera</h5>
-                        <p class="card-text">Restaurante y lugar para echarte unas partidas a los bolos</p>
-                        <a href="#" class="btn btn-primary">Hacer Reserva</a>
-                    </div>
-                </div>
-            </div>
+
+            <!-- Fin del bloque repetido -->
+
         </div>
     </div>
 
