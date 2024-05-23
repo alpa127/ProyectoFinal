@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Proyecto_Final": {
+    "ProyectoFinal": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Proyecto_Final:build:production"
+              "buildTarget": "ProyectoFinal:build:production"
             },
             "development": {
-              "buildTarget": "Proyecto_Final:build:development"
+              "buildTarget": "ProyectoFinal:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Proyecto_Final:build"
+            "buildTarget": "ProyectoFinal:build"
           }
         },
         "test": {
@@ -98,6 +98,6 @@
     }
   },
   "cli": {
-    "analytics": "6363e0c2-687e-405a-b51e-80ba7f80afa4"
+    "analytics": "d583015f-d108-4f96-95a4-89fb056dc8f4"
   }
 }
